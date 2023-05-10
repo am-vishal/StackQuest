@@ -1,3 +1,4 @@
 .env
 topics.txt
 node_modules
+.gitignore

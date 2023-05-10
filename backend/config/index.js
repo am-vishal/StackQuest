@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 let _db;
+
 module.exports = {
   connectToServer: async function () {
     try {
@@ -12,7 +13,6 @@ module.exports = {
       console.log("Successfully connected to MongoDB.");
       return _db;
     } catch (err) {
-      console.log("11");
       throw err;
     }
   },
